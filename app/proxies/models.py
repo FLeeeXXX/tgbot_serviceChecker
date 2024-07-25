@@ -11,4 +11,4 @@ class Proxy(Base):
     user_telegram_id = mapped_column(ForeignKey('users.telegram_id'), nullable=False)
     proxy: Mapped[str] = mapped_column(String, nullable=False)
 
-    user: Mapped[SUser] = relationship('User', back_populates='proxies')
+    # user: Mapped[SUser] = relationship('User', back_populates='proxies')

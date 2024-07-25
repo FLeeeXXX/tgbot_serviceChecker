@@ -3,12 +3,16 @@ from aiogram import types, Router, F
 from common.bot_keyboards import start_keyboard
 from aiogram.fsm.context import FSMContext
 from states.user_states import AddSite, AddProxy
+from users.service import UserService
 
 user_handlers = Router()
 
 
 @user_handlers.message(CommandStart())
 async def start(message: types.Message):
+    user = await UserService.find_one_or_none(telegram_id=message.from_user.id)
+    if not user:
+        await UserService.add(telegram_id=message.from_user.id)
     await message.answer("Привет!", reply_markup=start_keyboard)
 
 

@@ -11,4 +11,4 @@ class Site(Base):
     user_telegram_id = mapped_column(ForeignKey('users.telegram_id'), nullable=False)
     site_name: Mapped[str] = mapped_column(String, nullable=False)
 
-    user: Mapped[SUser] = relationship('User', back_populates='sites')
+    # user: Mapped[SUser] = relationship('User', back_populates='sites')

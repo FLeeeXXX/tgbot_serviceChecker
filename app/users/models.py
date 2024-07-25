@@ -11,5 +11,5 @@ class User(Base):
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     telegram_id = mapped_column(BigInteger, unique=True)
 
-    sites: Mapped[list[SSite]] = relationship('Site', back_populates='user', cascade='all, delete-orphan')
-    proxies: Mapped[list[SProxy]] = relationship('Proxy', back_populates='user', cascade='all, delete-orphan')
+    # sites: Mapped[list[SSite]] = relationship('Site', back_populates='user', cascade='all, delete-orphan')
+    # proxies: Mapped[list[SProxy]] = relationship('Proxy', back_populates='user', cascade='all, delete-orphan')
