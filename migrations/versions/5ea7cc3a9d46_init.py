@@ -1,8 +1,8 @@
-"""Initial migration
+"""init
 
-Revision ID: 2b908f6fba18
+Revision ID: 5ea7cc3a9d46
 Revises: 
-Create Date: 2024-07-24 22:35:26.109777
+Create Date: 2024-07-26 17:44:36.019994
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '2b908f6fba18'
+revision: str = '5ea7cc3a9d46'
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -28,16 +28,16 @@ def upgrade() -> None:
     )
     op.create_table('proxies',
     sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),
-    sa.Column('user_telegram_id', sa.BigInteger(), nullable=False),
+    sa.Column('user_id', sa.Integer(), nullable=False),
     sa.Column('proxy', sa.String(), nullable=False),
-    sa.ForeignKeyConstraint(['user_telegram_id'], ['users.telegram_id'], ),
+    sa.ForeignKeyConstraint(['user_id'], ['users.id'], ),
     sa.PrimaryKeyConstraint('id')
     )
     op.create_table('sites',
     sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),
-    sa.Column('user_telegram_id', sa.BigInteger(), nullable=False),
+    sa.Column('user_id', sa.Integer(), nullable=False),
     sa.Column('site_name', sa.String(), nullable=False),
-    sa.ForeignKeyConstraint(['user_telegram_id'], ['users.telegram_id'], ),
+    sa.ForeignKeyConstraint(['user_id'], ['users.id'], ),
     sa.PrimaryKeyConstraint('id')
     )
     # ### end Alembic commands ###

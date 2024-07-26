@@ -1,5 +1,6 @@
 from database import async_session
-from sqlalchemy import select, insert
+from sqlalchemy import select, insert, delete
+from users.models import User
 
 
 class BaseService:
@@ -11,6 +12,18 @@ class BaseService:
             query = select(cls.model).filter_by(telegram_id=model_id)
             result = await session.execute(query)
             return result.scalars().first()
+
+    @classmethod
+    async def find_user_data(cls, telegram_id):
+        async with async_session() as session:
+            user_result = await session.execute(
+                select(User).filter_by(telegram_id=telegram_id)
+            )
+            user = user_result.scalars().first()
+
+            query = select(cls.model).filter_by(user_id=user.id)
+            result = await session.execute(query)
+            return result.scalars().all()
 
     @classmethod
     async def add(cls, **data):
@@ -25,3 +38,16 @@ class BaseService:
             query = select(cls.model).filter_by(**filter_by)
             result = await session.execute(query)
             return result.scalars().first()
+
+    @classmethod
+    async def delete(cls, product_id):
+        async with async_session() as session:
+            try:
+                query = delete(cls.model).where(cls.model.id == product_id)
+
+                await session.execute(query)
+                await session.commit()
+                return {"status": "success", "message": "✅ Успешно!"}
+            except Exception as e:
+                await session.rollback()
+                return {"status": "error", "message": f"❌ {str(e)}"}
