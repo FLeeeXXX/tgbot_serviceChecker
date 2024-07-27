@@ -16,9 +16,10 @@ async def check_sites(telegram_id):
         for site in sites:
             try:
                 async with session.get(site.site_name, proxy=random.choice(proxies).proxy, timeout=6) as response:
-                    if response.status != 200:
-                        results.append(f"❌ Сайт {site.site_name} недоступен.\n❌ Статус: {response.status}")
+                    if response.status != site.last_status:
+                        results.append(f"‼️ Изменился статус сайта: {site.site_name}.\n‼️ Сейчас: {response.status}\n‼️ Предыдущий: {site.last_status}")
+                        await SiteService.change_by_id(site.id, last_status=response.status)
             except Exception as e:
-                results.append(f"‼️ Не удалось проверить сайт {site.site_name}.\n‼️ Ошибка: {str(e)}")
+                results.append(f"❌ Не удалось проверить сайт {site.site_name}.\n❌ Ошибка: {str(e)}")
 
         return "\n".join(results)

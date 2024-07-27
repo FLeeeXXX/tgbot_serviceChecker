@@ -1,5 +1,5 @@
 from database import async_session
-from sqlalchemy import select, insert, delete
+from sqlalchemy import select, insert, delete, update
 from users.models import User
 
 
@@ -51,3 +51,10 @@ class BaseService:
             except Exception as e:
                 await session.rollback()
                 return {"status": "error", "message": f"❌ {str(e)}"}
+
+    @classmethod
+    async def change_by_id(cls, model_id, **data):
+        async with async_session() as session:
+            query = update(cls.model).filter_by(id=model_id).values(**data)
+            await session.execute(query)
+            await session.commit()
