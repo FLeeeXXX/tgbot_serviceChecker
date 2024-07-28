@@ -1,6 +1,6 @@
 import aiohttp
-from proxies.service import ProxyService
-from sites.service import SiteService
+from app.proxies.service import ProxyService
+from app.sites.service import SiteService
 import random
 
 

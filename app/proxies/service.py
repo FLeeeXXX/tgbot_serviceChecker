@@ -1,8 +1,8 @@
-from service.base import BaseService
-from proxies.models import Proxy
-from database import async_session
+from app.service.base import BaseService
+from app.proxies.models import Proxy
+from app.database import async_session
 from sqlalchemy import select, insert
-from users.models import User
+from app.users.models import User
 
 
 class ProxyService(BaseService):

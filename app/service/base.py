@@ -1,6 +1,6 @@
-from database import async_session
+from app.database import async_session
 from sqlalchemy import select, insert, delete, update
-from users.models import User
+from app.users.models import User
 
 
 class BaseService:

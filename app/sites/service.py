@@ -1,8 +1,8 @@
-from service.base import BaseService
-from sites.models import Site
-from database import async_session
+from app.service.base import BaseService
+from app.sites.models import Site
+from app.database import async_session
 from sqlalchemy import select, insert
-from users.models import User
+from app.users.models import User
 
 
 class SiteService(BaseService):

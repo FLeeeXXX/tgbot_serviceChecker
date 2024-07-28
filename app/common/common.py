@@ -1,7 +1,7 @@
 from aiogram import Bot
-from config import settings
+from app.config import settings
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from mechanisms.mechanisms import check_sites
+from app.mechanisms.mechanisms import check_sites
 
 bot = Bot(token=settings.TOKEN)
 scheduler = AsyncIOScheduler()

@@ -1,13 +1,13 @@
 from aiogram.filters import CommandStart
 from aiogram import types, Router, F
 from aiogram.types import CallbackQuery
-from common.bot_keyboards import start_keyboard, all_products_keyboard
+from app.common.bot_keyboards import start_keyboard, all_products_keyboard
 from aiogram.fsm.context import FSMContext
-from states.user_states import AddSite, AddProxy
-from users.service import UserService
-from proxies.service import ProxyService
-from sites.service import SiteService
-from common.common import bot, start_scheduler
+from app.states.user_states import AddSite, AddProxy
+from app.users.service import UserService
+from app.proxies.service import ProxyService
+from app.sites.service import SiteService
+from app.common.common import bot, start_scheduler
 
 user_handlers = Router()
 
