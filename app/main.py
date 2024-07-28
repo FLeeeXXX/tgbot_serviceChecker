@@ -17,7 +17,7 @@ from app.config import settings
 WEBHOOK_PATH = "/webhook"
 WEB_SERVER_PORT = 3000
 WEB_SERVER_HOST = "https://tgbot-servicechecker.onrender.com"
-WEB_SERVER_URL = f"{WEB_SERVER_HOST}:{WEBHOOK_PATH}"
+WEB_SERVER_URL = f"{WEB_SERVER_HOST}{WEBHOOK_PATH}"
 
 
 async def on_startup(bot: Bot):
@@ -49,12 +49,7 @@ async def main():
 
     setup_application(app, dp, bot=bot)
 
-    runner = web.AppRunner(app)
-    await runner.setup()
-    site = web.TCPSite(runner, WEB_SERVER_HOST, WEB_SERVER_PORT)
-    await site.start()
-
-    await asyncio.Event().wait()
+    web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT)
 
 if __name__ == '__main__':
     asyncio.run(main())
