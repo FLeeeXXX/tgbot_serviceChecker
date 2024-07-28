@@ -12,8 +12,6 @@ from app.common.common import bot
 from app.handlers.user_handlers import user_handlers
 from app.config import settings
 
-
-
 WEBHOOK_PATH = "/webhook"
 WEB_SERVER_PORT = 3000
 WEB_SERVER_HOST = "https://tgbot-servicechecker.onrender.com"
@@ -28,7 +26,7 @@ async def on_shutdown(bot: Bot):
     await bot.delete_webhook(drop_pending_updates=True)
 
 
-async def main():
+async def create_app():
     dp = Dispatcher()
 
     dp.include_routers(
@@ -49,7 +47,13 @@ async def main():
 
     setup_application(app, dp, bot=bot)
 
+    return app
+
+
+def main():
+    app = asyncio.run(create_app())
     web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT)
 
+
 if __name__ == '__main__':
-    asyncio.run(main())
+    main()
