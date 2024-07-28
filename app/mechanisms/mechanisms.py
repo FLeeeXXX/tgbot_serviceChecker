@@ -19,6 +19,8 @@ async def check_sites(telegram_id):
                     if response.status != site.last_status:
                         results.append(f"‼️ Изменился статус сайта: {site.site_name}.\n‼️ Сейчас: {response.status}\n‼️ Предыдущий: {site.last_status}")
                         await SiteService.change_by_id(site.id, last_status=response.status)
+                    results.append(
+                        f"‼️ сайт: {site.site_name}.\n‼️ статус Сейчас: {response.status}\n‼️ статус Предыдущий: {site.last_status}")
             except Exception as e:
                 results.append(f"❌ Не удалось проверить сайт {site.site_name}.\n❌ Ошибка: {str(e)}")
 

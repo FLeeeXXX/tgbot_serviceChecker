@@ -12,14 +12,9 @@ from app.common.common import bot
 from app.handlers.user_handlers import user_handlers
 from app.config import settings
 
-WEBHOOK_PATH = "/webhook"
-WEB_SERVER_PORT = 3000
-WEB_SERVER_HOST = "0.0.0.0"
-WEB_SERVER_URL = f"https://tgbot-servicechecker.onrender.com{WEBHOOK_PATH}"
-
 
 async def on_startup(bot: Bot):
-    await bot.set_webhook(WEB_SERVER_URL)
+    await bot.set_webhook(settings.WEB_SERVER_URL)
 
 
 async def on_shutdown(bot: Bot):
@@ -29,9 +24,7 @@ async def on_shutdown(bot: Bot):
 async def create_app():
     dp = Dispatcher()
 
-    dp.include_routers(
-        user_handlers,
-    )
+    dp.include_router(user_handlers)
 
     dp.startup.register(on_startup)
     dp.shutdown.register(on_shutdown)
@@ -43,7 +36,7 @@ async def create_app():
         bot=bot,
     )
 
-    webhook_requests_handler.register(app, path=WEBHOOK_PATH)
+    webhook_requests_handler.register(app, path=settings.WEBHOOK_PATH)
 
     setup_application(app, dp, bot=bot)
 
@@ -52,8 +45,9 @@ async def create_app():
 
 def main():
     app = asyncio.run(create_app())
-    web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT)
+    web.run_app(app, host=settings.WEB_SERVER_HOST, port=settings.WEB_SERVER_PORT)
 
 
 if __name__ == '__main__':
     main()
+
