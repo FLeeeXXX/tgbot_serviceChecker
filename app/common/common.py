@@ -13,5 +13,6 @@ async def start_scheduler(telegram_id, chat_id):
         if result:
             await bot.send_message(chat_id, result)
 
-    scheduler.add_job(notify_user, 'interval', seconds=30)
-    scheduler.start()
+    if not scheduler.running:
+        scheduler.add_job(notify_user, 'interval', seconds=30)
+        scheduler.start()
