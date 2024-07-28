@@ -14,8 +14,8 @@ from app.config import settings
 
 WEBHOOK_PATH = "/webhook"
 WEB_SERVER_PORT = 3000
-WEB_SERVER_HOST = "https://tgbot-servicechecker.onrender.com"
-WEB_SERVER_URL = f"{WEB_SERVER_HOST}{WEBHOOK_PATH}"
+WEB_SERVER_HOST = "0.0.0.0"
+WEB_SERVER_URL = f"https://tgbot-servicechecker.onrender.com{WEBHOOK_PATH}"
 
 
 async def on_startup(bot: Bot):
