@@ -1,14 +1,14 @@
 import sys
 import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import asyncio
 from aiohttp import web
 from aiogram import Dispatcher
 from app.common.common import bot
 from app.handlers.user_handlers import user_handlers
 from app.config import settings
-
-# Добавляем путь к родительскому каталогу
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Создаем экземпляр Dispatcher
 dp = Dispatcher()
