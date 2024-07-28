@@ -1,5 +1,6 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncAttrs
 from sqlalchemy.orm import DeclarativeBase
+from app.config import settings
 
 
 class DatabaseMeta(type):
@@ -12,7 +13,7 @@ class DatabaseMeta(type):
 
 
 class Database(metaclass=DatabaseMeta):
-    def __init__(self, db_url='sqlite+aiosqlite:///database.sqlite3'):
+    def __init__(self, db_url=settings.DATABASE_URL):
         self.engine = create_async_engine(db_url)
         self.async_session = async_sessionmaker(self.engine)
 
