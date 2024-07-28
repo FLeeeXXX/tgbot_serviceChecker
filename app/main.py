@@ -22,8 +22,8 @@ async def on_startup(bot: Bot):
     await bot.set_webhook(WEB_SERVER_URL)
 
 
-# async def on_shutdown(bot: Bot):
-#     await bot.delete_webhook(drop_pending_updates=True)
+async def on_shutdown(bot: Bot):
+    await bot.delete_webhook(drop_pending_updates=True)
 
 
 async def create_app():
@@ -34,7 +34,7 @@ async def create_app():
     )
 
     dp.startup.register(on_startup)
-    # dp.shutdown.register(on_shutdown)
+    dp.shutdown.register(on_shutdown)
 
     app = web.Application()
 
@@ -53,10 +53,6 @@ async def create_app():
 def main():
     app = asyncio.run(create_app())
     web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT)
-
-
-if __name__ == '__main__':
-    main()
 
 
 if __name__ == '__main__':
