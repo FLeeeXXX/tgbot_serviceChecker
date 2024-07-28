@@ -44,7 +44,8 @@ async def create_app():
 
 
 def main():
-    app = asyncio.run(create_app())
+    loop = asyncio.get_event_loop()
+    app = loop.run_until_complete(create_app())
     web.run_app(app, host=settings.WEB_SERVER_HOST, port=settings.WEB_SERVER_PORT)
 
 
