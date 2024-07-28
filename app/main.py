@@ -51,8 +51,18 @@ async def create_app():
 
 
 def main():
-    app = asyncio.run(create_app())
-    web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT)
+    try:
+        app = asyncio.run(create_app())
+        web.run_app(app, host=WEB_SERVER_HOST, port=WEB_SERVER_PORT)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    finally:
+        if not app['client_session'].closed:
+            asyncio.run(app['client_session'].close())
+
+
+if __name__ == '__main__':
+    main()
 
 
 if __name__ == '__main__':
