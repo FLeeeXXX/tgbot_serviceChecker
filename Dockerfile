@@ -1,4 +1,4 @@
-FROM python:3.11.9
+FROM python:3.11-slim
 
 RUN mkdir tgbot_serviceChecker
 
@@ -12,4 +12,4 @@ COPY . .
 
 RUN alembic upgrade head
 
-CMD python app/main.py
+CMD ["python", "app/main.py"]
