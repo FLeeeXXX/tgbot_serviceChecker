@@ -16,7 +16,7 @@ async def main():
     dp.include_router(user_handlers)
 
     try:
-        await dp.start_polling(bot, allowed_updates=Update.ANY)
+        await dp.start_polling(bot)
     finally:
         await dp.storage.close()
         await bot.session.close()
