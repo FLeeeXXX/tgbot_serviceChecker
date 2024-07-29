@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: some-postgres
+    environment:
+      POSTGRES_DB: tgbot_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  tgbot:
+    build: .
+    container_name: my-tgbot
+    depends_on:
+      - postgres
+    environment:
+      DB_USER: postgres
+      DB_PASS: postgres
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: tgbot_db
+    command: bash -c "alembic upgrade head && python app/main.py"
+    ports:
+      - "8000:8000"
+
+volumes:
+  postgres_data:
