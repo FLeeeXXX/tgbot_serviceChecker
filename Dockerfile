@@ -10,6 +10,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-RUN alembic upgrade head
-
 CMD ["python", "app/main.py"]

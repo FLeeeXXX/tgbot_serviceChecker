@@ -1,0 +1,1182 @@
+[
+    {
+        "label": "BotCommand",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "KeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "ReplyKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardMarkup",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardButton",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "CallbackQuery",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "Update",
+        "importPath": "aiogram.types",
+        "description": "aiogram.types",
+        "isExtraImport": true,
+        "detail": "aiogram.types",
+        "documentation": {}
+    },
+    {
+        "label": "InlineKeyboardBuilder",
+        "importPath": "aiogram.utils.keyboard",
+        "description": "aiogram.utils.keyboard",
+        "isExtraImport": true,
+        "detail": "aiogram.utils.keyboard",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Router",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "F",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "Dispatcher",
+        "importPath": "aiogram",
+        "description": "aiogram",
+        "isExtraImport": true,
+        "detail": "aiogram",
+        "documentation": {}
+    },
+    {
+        "label": "TelegramForbiddenError",
+        "importPath": "aiogram.exceptions",
+        "description": "aiogram.exceptions",
+        "isExtraImport": true,
+        "detail": "aiogram.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOScheduler",
+        "importPath": "apscheduler.schedulers.asyncio",
+        "description": "apscheduler.schedulers.asyncio",
+        "isExtraImport": true,
+        "detail": "apscheduler.schedulers.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "check_sites",
+        "importPath": "app.mechanisms.mechanisms",
+        "description": "app.mechanisms.mechanisms",
+        "isExtraImport": true,
+        "detail": "app.mechanisms.mechanisms",
+        "documentation": {}
+    },
+    {
+        "label": "CommandStart",
+        "importPath": "aiogram.filters",
+        "description": "aiogram.filters",
+        "isExtraImport": true,
+        "detail": "aiogram.filters",
+        "documentation": {}
+    },
+    {
+        "label": "start_keyboard",
+        "importPath": "app.common.bot_keyboards",
+        "description": "app.common.bot_keyboards",
+        "isExtraImport": true,
+        "detail": "app.common.bot_keyboards",
+        "documentation": {}
+    },
+    {
+        "label": "all_products_keyboard",
+        "importPath": "app.common.bot_keyboards",
+        "description": "app.common.bot_keyboards",
+        "isExtraImport": true,
+        "detail": "app.common.bot_keyboards",
+        "documentation": {}
+    },
+    {
+        "label": "FSMContext",
+        "importPath": "aiogram.fsm.context",
+        "description": "aiogram.fsm.context",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.context",
+        "documentation": {}
+    },
+    {
+        "label": "AddSite",
+        "importPath": "app.states.user_states",
+        "description": "app.states.user_states",
+        "isExtraImport": true,
+        "detail": "app.states.user_states",
+        "documentation": {}
+    },
+    {
+        "label": "AddProxy",
+        "importPath": "app.states.user_states",
+        "description": "app.states.user_states",
+        "isExtraImport": true,
+        "detail": "app.states.user_states",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "importPath": "app.users.service",
+        "description": "app.users.service",
+        "isExtraImport": true,
+        "detail": "app.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "ProxyService",
+        "importPath": "app.proxies.service",
+        "description": "app.proxies.service",
+        "isExtraImport": true,
+        "detail": "app.proxies.service",
+        "documentation": {}
+    },
+    {
+        "label": "ProxyService",
+        "importPath": "app.proxies.service",
+        "description": "app.proxies.service",
+        "isExtraImport": true,
+        "detail": "app.proxies.service",
+        "documentation": {}
+    },
+    {
+        "label": "SiteService",
+        "importPath": "app.sites.service",
+        "description": "app.sites.service",
+        "isExtraImport": true,
+        "detail": "app.sites.service",
+        "documentation": {}
+    },
+    {
+        "label": "SiteService",
+        "importPath": "app.sites.service",
+        "description": "app.sites.service",
+        "isExtraImport": true,
+        "detail": "app.sites.service",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "importPath": "app.common.common",
+        "description": "app.common.common",
+        "isExtraImport": true,
+        "detail": "app.common.common",
+        "documentation": {}
+    },
+    {
+        "label": "start_scheduler",
+        "importPath": "app.common.common",
+        "description": "app.common.common",
+        "isExtraImport": true,
+        "detail": "app.common.common",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "importPath": "app.common.common",
+        "description": "app.common.common",
+        "isExtraImport": true,
+        "detail": "app.common.common",
+        "documentation": {}
+    },
+    {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_session",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_session",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_session",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "BigInteger",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "insert",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "insert",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "BigInteger",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "insert",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "BigInteger",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseService",
+        "importPath": "app.service.base",
+        "description": "app.service.base",
+        "isExtraImport": true,
+        "detail": "app.service.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseService",
+        "importPath": "app.service.base",
+        "description": "app.service.base",
+        "isExtraImport": true,
+        "detail": "app.service.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseService",
+        "importPath": "app.service.base",
+        "description": "app.service.base",
+        "isExtraImport": true,
+        "detail": "app.service.base",
+        "documentation": {}
+    },
+    {
+        "label": "Proxy",
+        "importPath": "app.proxies.models",
+        "description": "app.proxies.models",
+        "isExtraImport": true,
+        "detail": "app.proxies.models",
+        "documentation": {}
+    },
+    {
+        "label": "Proxy",
+        "importPath": "app.proxies.models",
+        "description": "app.proxies.models",
+        "isExtraImport": true,
+        "detail": "app.proxies.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "isExtraImport": true,
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "Site",
+        "importPath": "app.sites.models",
+        "description": "app.sites.models",
+        "isExtraImport": true,
+        "detail": "app.sites.models",
+        "documentation": {}
+    },
+    {
+        "label": "Site",
+        "importPath": "app.sites.models",
+        "description": "app.sites.models",
+        "isExtraImport": true,
+        "detail": "app.sites.models",
+        "documentation": {}
+    },
+    {
+        "label": "StatesGroup",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "importPath": "aiogram.fsm.state",
+        "description": "aiogram.fsm.state",
+        "isExtraImport": true,
+        "detail": "aiogram.fsm.state",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncAttrs",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "user_handlers",
+        "importPath": "app.handlers.user_handlers",
+        "description": "app.handlers.user_handlers",
+        "isExtraImport": true,
+        "detail": "app.handlers.user_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "bot_commands",
+        "kind": 5,
+        "importPath": "app.common.bot_commands",
+        "description": "app.common.bot_commands",
+        "peekOfCode": "bot_commands = [\n    BotCommand(command='add_sites', description='Добавить сайты'),\n    BotCommand(command='add_proxies', description='Добавить прокси'),\n]",
+        "detail": "app.common.bot_commands",
+        "documentation": {}
+    },
+    {
+        "label": "start_keyboard",
+        "kind": 5,
+        "importPath": "app.common.bot_keyboards",
+        "description": "app.common.bot_keyboards",
+        "peekOfCode": "start_keyboard = ReplyKeyboardMarkup(keyboard=[\n    [KeyboardButton(text=\"Список прокси\"), KeyboardButton(text=\"Список сайтов\")],\n    [KeyboardButton(text=\"Добавить прокси\"), KeyboardButton(text=\"Добавить сайт\")],\n], resize_keyboard=True)\nasync def all_products_keyboard(model, telegram_id, field_name):\n    products = await model.find_user_data(telegram_id)\n    keyboard = InlineKeyboardBuilder()\n    for product in products:\n        keyboard.add(InlineKeyboardButton(text=getattr(product, field_name), callback_data=f\"product_{field_name}_{product.id}\"))\n        keyboard.add(InlineKeyboardButton(text=\"❌\", callback_data=f\"delete_product_{field_name}_{product.id}\"))",
+        "detail": "app.common.bot_keyboards",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "app.common.common",
+        "description": "app.common.common",
+        "peekOfCode": "bot = Bot(token=settings.TOKEN)\nscheduler = AsyncIOScheduler()\nasync def start_scheduler(telegram_id, chat_id):\n    async def notify_user():\n        try:\n            result = await check_sites(telegram_id)\n            if result:\n                await bot.send_message(chat_id, result)\n        except TelegramForbiddenError:\n            job_id = f\"check_sites_{telegram_id}\"",
+        "detail": "app.common.common",
+        "documentation": {}
+    },
+    {
+        "label": "scheduler",
+        "kind": 5,
+        "importPath": "app.common.common",
+        "description": "app.common.common",
+        "peekOfCode": "scheduler = AsyncIOScheduler()\nasync def start_scheduler(telegram_id, chat_id):\n    async def notify_user():\n        try:\n            result = await check_sites(telegram_id)\n            if result:\n                await bot.send_message(chat_id, result)\n        except TelegramForbiddenError:\n            job_id = f\"check_sites_{telegram_id}\"\n            if scheduler.get_job(job_id):",
+        "detail": "app.common.common",
+        "documentation": {}
+    },
+    {
+        "label": "user_handlers",
+        "kind": 5,
+        "importPath": "app.handlers.user_handlers",
+        "description": "app.handlers.user_handlers",
+        "peekOfCode": "user_handlers = Router()\n@user_handlers.message(CommandStart())\nasync def start(message: types.Message):\n    telegram_id = message.from_user.id\n    chat_id = str(message.chat.id)\n    user = await UserService.find_one_or_none(telegram_id=telegram_id)\n    if not user:\n        await UserService.add(telegram_id=message.from_user.id)\n    await message.answer(\"Привет!\\nТеперь тебе нужно добавить ссылки и прокси\", reply_markup=start_keyboard)\n    await start_scheduler(telegram_id, chat_id)",
+        "detail": "app.handlers.user_handlers",
+        "documentation": {}
+    },
+    {
+        "label": "Proxy",
+        "kind": 6,
+        "importPath": "app.proxies.models",
+        "description": "app.proxies.models",
+        "peekOfCode": "class Proxy(Base):\n    __tablename__ = 'proxies'\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)\n    user_id = mapped_column(ForeignKey('users.id'), nullable=False)\n    proxy: Mapped[str] = mapped_column(String, nullable=False)",
+        "detail": "app.proxies.models",
+        "documentation": {}
+    },
+    {
+        "label": "SProxy",
+        "kind": 6,
+        "importPath": "app.proxies.schemas",
+        "description": "app.proxies.schemas",
+        "peekOfCode": "class SProxy(BaseModel):\n    id: int\n    user_id: int\n    proxy: str\n    class Config:\n        orm_mode: True",
+        "detail": "app.proxies.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProxyService",
+        "kind": 6,
+        "importPath": "app.proxies.service",
+        "description": "app.proxies.service",
+        "peekOfCode": "class ProxyService(BaseService):\n    model = Proxy\n    @classmethod\n    async def add(cls, telegram_id, field_name, field_data):\n        async with async_session() as session:\n            try:\n                user_result = await session.execute(\n                    select(User).filter_by(telegram_id=telegram_id)\n                )\n                user = user_result.scalars().first()",
+        "detail": "app.proxies.service",
+        "documentation": {}
+    },
+    {
+        "label": "BaseService",
+        "kind": 6,
+        "importPath": "app.service.base",
+        "description": "app.service.base",
+        "peekOfCode": "class BaseService:\n    model = None\n    @classmethod\n    async def find_by_id(cls, model_id):\n        async with async_session() as session:\n            query = select(cls.model).filter_by(telegram_id=model_id)\n            result = await session.execute(query)\n            return result.scalars().first()\n    @classmethod\n    async def find_user_data(cls, telegram_id):",
+        "detail": "app.service.base",
+        "documentation": {}
+    },
+    {
+        "label": "Site",
+        "kind": 6,
+        "importPath": "app.sites.models",
+        "description": "app.sites.models",
+        "peekOfCode": "class Site(Base):\n    __tablename__ = 'sites'\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)\n    user_id = mapped_column(ForeignKey('users.id'), nullable=False)\n    site_name: Mapped[str] = mapped_column(String, nullable=False)\n    last_status: Mapped[int] = mapped_column(Integer, nullable=False, default=200)",
+        "detail": "app.sites.models",
+        "documentation": {}
+    },
+    {
+        "label": "SSite",
+        "kind": 6,
+        "importPath": "app.sites.schemas",
+        "description": "app.sites.schemas",
+        "peekOfCode": "class SSite(BaseModel):\n    id: int\n    user_id: int\n    site_name: str\n    last_status: int\n    class Config:\n        orm_mode: True",
+        "detail": "app.sites.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SiteService",
+        "kind": 6,
+        "importPath": "app.sites.service",
+        "description": "app.sites.service",
+        "peekOfCode": "class SiteService(BaseService):\n    model = Site\n    @classmethod\n    async def add(cls, telegram_id, field_name, field_data):\n        async with async_session() as session:\n            try:\n                user_result = await session.execute(\n                    select(User).filter_by(telegram_id=telegram_id)\n                )\n                user = user_result.scalars().first()",
+        "detail": "app.sites.service",
+        "documentation": {}
+    },
+    {
+        "label": "AddSite",
+        "kind": 6,
+        "importPath": "app.states.user_states",
+        "description": "app.states.user_states",
+        "peekOfCode": "class AddSite(StatesGroup):\n    site = State()\nclass AddProxy(StatesGroup):\n    proxy = State()",
+        "detail": "app.states.user_states",
+        "documentation": {}
+    },
+    {
+        "label": "AddProxy",
+        "kind": 6,
+        "importPath": "app.states.user_states",
+        "description": "app.states.user_states",
+        "peekOfCode": "class AddProxy(StatesGroup):\n    proxy = State()",
+        "detail": "app.states.user_states",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.users.models",
+        "description": "app.users.models",
+        "peekOfCode": "class User(Base):\n    __tablename__ = 'users'\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)\n    telegram_id = mapped_column(BigInteger, unique=True)",
+        "detail": "app.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "SUser",
+        "kind": 6,
+        "importPath": "app.users.schemas",
+        "description": "app.users.schemas",
+        "peekOfCode": "class SUser(BaseModel):\n    id: int\n    telegram_id: int\n    class Config:\n        orm_mode: True",
+        "detail": "app.users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "kind": 6,
+        "importPath": "app.users.service",
+        "description": "app.users.service",
+        "peekOfCode": "class UserService(BaseService):\n    model = User",
+        "detail": "app.users.service",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    TOKEN: str\n    DB_HOST: str\n    DB_PORT: int\n    DB_USER: str\n    DB_PASS: str\n    DB_NAME: str\n    WEBHOOK_PATH: str\n    WEB_SERVER_PORT: int\n    WEB_SERVER_HOST: str",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseMeta",
+        "kind": 6,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "class DatabaseMeta(type):\n    _instances = {}\n    def __call__(cls, *args, **kwargs):\n        if cls not in cls._instances:\n            cls._instances[cls] = super(DatabaseMeta, cls).__call__(*args, **kwargs)\n        return cls._instances[cls]\nclass Database(metaclass=DatabaseMeta):\n    def __init__(self, db_url=settings.DATABASE_URL):\n        self.engine = create_async_engine(db_url)\n        self.async_session = async_sessionmaker(self.engine)",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "kind": 6,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "class Database(metaclass=DatabaseMeta):\n    def __init__(self, db_url=settings.DATABASE_URL):\n        self.engine = create_async_engine(db_url)\n        self.async_session = async_sessionmaker(self.engine)\nclass Base(DeclarativeBase, AsyncAttrs):\n    pass\ndb = Database()\nasync_session = db.async_session",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "class Base(DeclarativeBase, AsyncAttrs):\n    pass\ndb = Database()\nasync_session = db.async_session",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "db = Database()\nasync_session = db.async_session",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_session",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "async_session = db.async_session",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.2f118fca707d_init",
+        "description": "migrations.versions.2f118fca707d_init",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),\n    sa.Column('telegram_id', sa.BigInteger(), nullable=True),\n    sa.PrimaryKeyConstraint('id'),\n    sa.UniqueConstraint('telegram_id')\n    )\n    op.create_table('proxies',\n    sa.Column('id', sa.Integer(), autoincrement=True, nullable=False),",
+        "detail": "migrations.versions.2f118fca707d_init",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.2f118fca707d_init",
+        "description": "migrations.versions.2f118fca707d_init",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('sites')\n    op.drop_table('proxies')\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.2f118fca707d_init",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\nconfig.set_main_option(\"sqlalchemy.url\", f\"{settings.DATABASE_URL}?async_fallback=True\")\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# Import and set the target metadata for 'autogenerate' support\ntarget_metadata = Base.metadata\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_metadata = Base.metadata\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"",
+        "detail": "migrations.env",
+        "documentation": {}
+    }
+]

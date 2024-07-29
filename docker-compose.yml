@@ -3,24 +3,24 @@ version: '3.8'
 services:
   db:
     image: postgres:15.2
-    restart: 'unless-stopped'
+    restart: unless-stopped
     container_name: tgbot_db
     environment:
       POSTGRES_DB: 'tgbot_db'
       POSTGRES_USER: 'postgres'
       POSTGRES_PASSWORD: 'postgres'
     ports:
-      - 5432:5432
+      - "5432:5432"
 
   db_migration:
     build:
       context: .
       dockerfile: Dockerfile
-    restart: 'on-failure'
+    restart: on-failure
     depends_on:
       - db
     env_file: .env
-    command: sh -c "python3 -m alembic upgrade head"
+    command: alembic upgrade head
 
   tgbot:
     build:
@@ -32,4 +32,4 @@ services:
       - db
       - db_migration
     ports:
-      - 8000:8000
+      - "8000:8000"
