@@ -1,32 +1,35 @@
 version: '3.8'
 
 services:
-  postgres:
-    image: postgres:latest
-    container_name: some-postgres
+  db:
+    image: postgres:15.2
+    restart: 'unless-stopped'
+    container_name: tgbot_db
     environment:
-      POSTGRES_DB: tgbot_db
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
+      POSTGRES_DB: 'tgbot_db'
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: 'postgres'
     ports:
-      - "5432:5432"
+      - 5432:5432
+
+  db_migration:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: 'on-failure'
+    depends_on:
+      - db
+    env_file: .env
+    command: sh -c "python3 -m alembic upgrade head"
 
   tgbot:
-    build: .
-    container_name: my-tgbot
+    build:
+      context: .
+    container_name: tgbot
+    env_file:
+      - .env
     depends_on:
-      - postgres
-    environment:
-      DB_USER: postgres
-      DB_PASS: postgres
-      DB_HOST: postgres
-      DB_PORT: 5432
-      DB_NAME: tgbot_db
-    command: bash -c "alembic upgrade head && python app/main.py"
+      - db
+      - db_migration
     ports:
-      - "8000:8000"
-
-volumes:
-  postgres_data:
+      - 8000:8000
